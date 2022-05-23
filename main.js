@@ -10,3 +10,5 @@ if (!fs.existsSync(path)) {
 const result = mergeYaml.merge([path, 'overlay.yaml'])
 
 fs.writeFileSync(path, result)
+
+console.log("Rewrite successful.")
