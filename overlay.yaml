@@ -3,5 +3,5 @@ network:
     gossip_redundancy_target: 2.0
     gossip_max_batch_size: 1000
     danger_gossip_recent_threshold_secs: 0
-    gossip_agent_info_update_interval_ms: 1000 * 5  # 5 seconds
+    gossip_agent_info_update_interval_ms: 5000
     disable_publish: true
